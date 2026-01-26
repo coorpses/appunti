@@ -1,0 +1,27 @@
+Ci sono 3 tipi di progetto:
+- ASP.NET Core Web App (Model-View-Controller) → MVC
+- ASP.NET Core Web App → Razor Pages
+- ASP.NET Core Web API → solo API, senza pagine web
+
+✨ ​ASP.NET Core Web App MVC
+- Controllers → logica (gestisce le richieste e decide cosa mostrare)
+- Models → dati (classi / database)
+- Views → pagine HTML
+- Program.cs → configurazione principale
+
+✨ Passare da una versione di .NET a una più nuova (es. da .NET 8 a .NET 10)
+Quando passi da una versione di .NET a una più recente non cambia il modo di programmare di base, ma cambia il motore su cui gira l’applicazione
+Cosa cambia in pratica:
+- Prestazioni migliori (app più veloce e che usa meno memoria)
+- Maggiore sicurezza (bug e vulnerabilità risolte)
+- Nuove API e funzionalità disponibili
+- Alcune API vecchie possono essere deprecate (da sistemare)
+
+✨ Cos’è il .NET SDK (Software Development Kit)
+È il pacchetto necessario per sviluppare applicazioni .NET. Senza SDK non puoi creare o compilare progetti.
+Include:
+- compilatore C#
+- librerie base
+- tool dotnet
+- template di progetto (MVC, Web API, Razor Pages)
+- runtime (serve solo per eseguire un’app già compilata tipo → eseguire un .exe o un’app compilata con dotnet publish)
