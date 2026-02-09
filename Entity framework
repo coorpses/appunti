@@ -1,3 +1,3 @@
-- Entity frameowrk:
-è un ORM (Object-Relational Mapper). Ti permette di lavorare col database usando classi C# invece che SQL a mano.
+✨ Entity framework:
+è un ORM (Object-Relational Mapper). Ti permette di lavorare col database (interrogare e modificare i dati) usando classi C# invece che SQL a mano.
 
