@@ -1,0 +1,3 @@
+- Entity frameowrk:
+è un ORM (Object-Relational Mapper). Ti permette di lavorare col database usando classi C# invece che SQL a mano.
+
