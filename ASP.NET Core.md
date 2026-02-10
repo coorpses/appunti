@@ -4,8 +4,7 @@
 - elaborarle
 - restituire risposte (HTML, JSON, file, ecc.)
 
-✨ Differenza
-
+✨ Differenza<br>
 <img width="487" height="185" alt="image" src="https://github.com/user-attachments/assets/654755b3-54f1-4597-81ab-407b66e86b0e" />
 
 NET è la piattaforma su cui gira il codice.
@@ -20,7 +19,7 @@ ASP.NET Core è uno strumento dentro .NET per fare applicazioni web. Aggiunge a 
 - gestire API / controller
 - rispondere a browser e app
 
-**Esempio .NET:** Console.Writeline("ciao");  
+**Esempio .NET:** Console.Writeline("ciao");<br>
 **Esempio ASP.NET:** app.MapGet("/ciao", () => "ciao");
 
 Ci sono 3 tipi di progetto:
@@ -28,7 +27,7 @@ Ci sono 3 tipi di progetto:
 - ASP.NET Core Web App → Razor Pages
 - ASP.NET Core Web API → solo API, senza pagine web
 
-✨ ​ASP.NET Core Web App MVC
+✨ ​ASP.NET Core Web App MVC: per separare la logica di business e dei dati
 - Controllers → logica (gestisce le richieste e decide cosa mostrare)
 - Models → dati (classi / database)
 - Views → pagine HTML
@@ -50,6 +49,7 @@ Include:
 - tool dotnet
 - template di progetto (MVC, Web API, Razor Pages)
 - runtime (serve solo per eseguire un’app già compilata tipo → eseguire un .exe o un’app compilata con dotnet publish)
+
 
 
 
