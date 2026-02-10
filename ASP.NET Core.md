@@ -6,13 +6,20 @@
 - restituire risposte (HTML, JSON, file, ecc.)
 
 ✨ Differenza
+<img width="1896" height="832" alt="image" src="https://github.com/user-attachments/assets/f0f2ff4a-3712-493f-a491-2a6517e7a039" />
+
 NET è la piattaforma su cui gira il codice.
 - esegue il codice C#
 - fornisce il runtime
 - include le librerie fondamentali (stringhe, liste, file, date, thread…)
-Ma da solo .NET non gestisce HTTP
-ASP.NET Core è uno strumento dentro .NET per fare applicazioni web.
+Ma da solo .NET non gestisce HTTP.
 
+ASP.NET Core è uno strumento dentro .NET per fare applicazioni web. Aggiunge a .NET la capacità di:
+- ascoltare richieste HTTP
+- fare routing
+- gestire API / controller
+- rispondere a browser e app
+<img width="428" height="566" alt="image" src="https://github.com/user-attachments/assets/cf964f52-66d3-4d38-b127-6269bb78811c" />
 
 Ci sono 3 tipi di progetto:
 - ASP.NET Core Web App (Model-View-Controller) → MVC
@@ -41,4 +48,5 @@ Include:
 - tool dotnet
 - template di progetto (MVC, Web API, Razor Pages)
 - runtime (serve solo per eseguire un’app già compilata tipo → eseguire un .exe o un’app compilata con dotnet publish)
+
 
