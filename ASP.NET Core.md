@@ -20,7 +20,9 @@ ASP.NET Core è uno strumento dentro .NET per fare applicazioni web. Aggiunge a 
 - fare routing
 - gestire API / controller
 - rispondere a browser e app
-<img width="428" height="566" alt="image" src="https://github.com/user-attachments/assets/cf964f52-66d3-4d38-b127-6269bb78811c" />
+
+**Esempio .NET:** Console.Writeline("ciao");
+**Esempio ASP.NET:** app.MapGet("/ciao", () => "ciao");
 
 Ci sono 3 tipi di progetto:
 - ASP.NET Core Web App (Model-View-Controller) → MVC
@@ -49,6 +51,7 @@ Include:
 - tool dotnet
 - template di progetto (MVC, Web API, Razor Pages)
 - runtime (serve solo per eseguire un’app già compilata tipo → eseguire un .exe o un’app compilata con dotnet publish)
+
 
 
 
