@@ -1,6 +1,5 @@
 ✨ ​ASP.NET Core
-è un framework open-source, cross-platform per sviluppare applicazioni web e API sulla piattaforma .NET.
-È l’infrastruttura che ti permette di:
+è un framework open-source, cross-platform per sviluppare applicazioni web e API sulla piattaforma .NET. È l’infrastruttura che ti permette di:
 - ricevere richieste HTTP
 - elaborarle
 - restituire risposte (HTML, JSON, file, ecc.)
@@ -21,7 +20,7 @@ ASP.NET Core è uno strumento dentro .NET per fare applicazioni web. Aggiunge a 
 - gestire API / controller
 - rispondere a browser e app
 
-**Esempio .NET:** Console.Writeline("ciao");
+**Esempio .NET:** Console.Writeline("ciao");  
 **Esempio ASP.NET:** app.MapGet("/ciao", () => "ciao");
 
 Ci sono 3 tipi di progetto:
@@ -51,6 +50,7 @@ Include:
 - tool dotnet
 - template di progetto (MVC, Web API, Razor Pages)
 - runtime (serve solo per eseguire un’app già compilata tipo → eseguire un .exe o un’app compilata con dotnet publish)
+
 
 
 
