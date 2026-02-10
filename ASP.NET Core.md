@@ -6,6 +6,7 @@
 - restituire risposte (HTML, JSON, file, ecc.)
 
 ✨ Differenza
+
 <img width="487" height="185" alt="image" src="https://github.com/user-attachments/assets/654755b3-54f1-4597-81ab-407b66e86b0e" />
 
 NET è la piattaforma su cui gira il codice.
@@ -48,6 +49,7 @@ Include:
 - tool dotnet
 - template di progetto (MVC, Web API, Razor Pages)
 - runtime (serve solo per eseguire un’app già compilata tipo → eseguire un .exe o un’app compilata con dotnet publish)
+
 
 
 
