@@ -1,10 +1,12 @@
 ✨ ​ASP.NET Core
+---
 è un framework open-source, cross-platform per sviluppare applicazioni web e API sulla piattaforma .NET. È l’infrastruttura che ti permette di:
 - ricevere richieste HTTP
 - elaborarle
 - restituire risposte (HTML, JSON, file, ecc.)
 
 ✨ Differenza<br>
+---
 <img width="487" height="185" alt="image" src="https://github.com/user-attachments/assets/654755b3-54f1-4597-81ab-407b66e86b0e" />
 
 NET è la piattaforma su cui gira il codice.
@@ -19,8 +21,12 @@ ASP.NET Core è uno strumento dentro .NET per fare applicazioni web. Aggiunge a 
 - gestire API / controller
 - rispondere a browser e app
 
-**Esempio .NET:** Console.Writeline("ciao");<br>
-**Esempio ASP.NET:** app.MapGet("/ciao", () => "ciao");
+<pre> # Esempio .NET
+  Console.Writeline("ciao");
+
+  # Esempio ASP.NET
+  app.MapGet("/ciao", () => "ciao");
+</pre>
 
 Ci sono 3 tipi di progetto:
 - ASP.NET Core Web App (Model-View-Controller) → MVC
@@ -33,7 +39,8 @@ Ci sono 3 tipi di progetto:
 - Views → pagine HTML
 - Program.cs → configurazione principale
 
-✨ Passare da una versione di .NET a una più nuova (es. da .NET 8 a .NET 10)
+✨ Passare da una versione vecchia a una più nuova (es. da .NET 8 a .NET 10)
+---
 Quando passi da una versione di .NET a una più recente non cambia il modo di programmare di base, ma cambia il motore su cui gira l’applicazione
 Cosa cambia in pratica:
 - Prestazioni migliori (app più veloce e che usa meno memoria)
@@ -42,6 +49,7 @@ Cosa cambia in pratica:
 - Alcune API vecchie possono essere deprecate (da sistemare)
 
 ✨ Cos’è il .NET SDK (Software Development Kit)
+---
 È il pacchetto necessario per sviluppare applicazioni .NET. Senza SDK non puoi creare o compilare progetti.
 Include:
 - compilatore C#
