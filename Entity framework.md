@@ -19,3 +19,5 @@ Permette di progettare l'entity model.
 
 ✨ Domain model (entity model)
 ---
+Esempio di una entity model, composta da due classi, Cliente e Ordine
+<img width="756" height="308" alt="immagine" src="https://github.com/user-attachments/assets/807016bf-c2f6-4200-be54-3f69402fe4c0" />
