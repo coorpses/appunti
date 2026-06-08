@@ -2,9 +2,9 @@
 ---
 Da dove inizia il codice
 
-✨ List<T>​
+✨ List</T>​
 ---
-var names = new List<string> { "scott", "ana" };
+var names = new List</string> { "scott", "ana" };
 
 Console.WriteLine(names[^1]) // count from the back, last element
 
