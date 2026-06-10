@@ -36,7 +36,20 @@ Index.html → componente root <br>
 Main.ts → file da cui parte tutta l'applicazione angular <br>
 Styles.css → css globale
 
+✨ Componenti​
+---
+```ts
+import { Component } from '@angular/core'; 
 
+@Component({     // decorator che serve per dire ad angular che questo è un componente
+  selector: 'app-root',  // selettore che viene chiamato dentro l'html
+  templateUrl: './app.component.html'
+  styleUlrs: ['./app.component.css'] //array perchè può essercene più di uno
+})
+export class AppComponent {
+  title = 'Nome componente';
+}
+```
 
 
 
