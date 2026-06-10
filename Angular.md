@@ -6,7 +6,19 @@ Framewrok Javascript che permette di creare single paged applications (avviene t
 
 ✨ Progetto Angular​
 ---
-<img width="387" height="742" alt="image" src="https://github.com/user-attachments/assets/d6d6bcaf-fcd9-4ec2-b37c-767d1f37c941" />
+<img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/d6d6bcaf-fcd9-4ec2-b37c-767d1f37c941" />
 
 - .git e .vscode → file nascosti
 - node_modules → gestore dei pacchetti di node → mostra la lista dei pacchetti installati
+- .browserslistrc → file usato dal build per supportare i vari browser
+- .editorconfig → si può specificare lo stile del codice
+- .gitignore → file da ignorare su git (es. node_modules perchè troppo grande)
+- angular.json → json con dati relativi ad angular
+- karma.conf.js → serve per i test
+- package.json → json con dati relativi al nostro progetto (es. nome, versione, script, dependencies)
+- tsconfig.app.json → configurazione del typescript
+- tsconfig.json → struttura di dati che serve al compilatore di typescript
+- tsconfig.spec.json → serve per i test
+
+✨ Cartella SRC​
+---
