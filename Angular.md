@@ -22,3 +22,21 @@ Framewrok Javascript che permette di creare single paged applications (avviene t
 
 ✨ Cartella SRC​
 ---
+Cartella app:
+- app.module.ts → lista di componenti, moduli e services che usiamo
+- app-routing.module.ts → gestisce il routing
+
+Cartella assets:<br>
+dove inserire i file che vogliamo usare, tipo immagini, pdf... <br>
+
+Cartella environments:<br>
+Ci sono 2 file, uno che riguarda l'ambiente di produzione e l'altro di development <br>
+
+Index.html → componente root <br>
+Main.ts → file da cui parte tutta l'applicazione angular <br>
+Styles.css → css globale
+
+
+
+
+
