@@ -68,8 +68,18 @@ Mostrare a schermo qualsiasi cosa che possa essere trasformato in una stringa
 <p> {{2 < 5? 'ciao' : 'hello' }} </p> 
 ```
 
+✨ Property binding
+---
+```html
+<!-- HTML -->
+<button color="primary" [disabled]="isDisabled"> Cerca </button>
+```
+Possiamo bindare il funzionamento del bottone (se disabilitarlo o meno) aggiungendo le parentesi quadre all'attributo disabled. In questo modo disabled viene collegato alla variabile isDisabled che viene dal .ts
 
-
+```ts
+<!-- TS -->
+isDisabled = false;
+```
 
 
 
