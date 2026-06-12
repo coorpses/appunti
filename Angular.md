@@ -77,7 +77,7 @@ Mostrare a schermo qualsiasi cosa che possa essere trasformato in una stringa
 Possiamo bindare il funzionamento del bottone (se disabilitarlo o meno) aggiungendo le parentesi quadre all'attributo disabled. In questo modo disabled viene collegato alla variabile isDisabled che viene dal .ts
 
 ```ts
-<!-- TS -->
+// TS
 isDisabled = false;
 ```
 
