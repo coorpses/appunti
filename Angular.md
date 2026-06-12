@@ -51,5 +51,26 @@ export class AppComponent {
 }
 ```
 
+✨ Data binding
+---
+Far comunicare il .ts con il suo .html. Ci sono 4 tipi di data binding:
+- string interpolation (one-way)
+- property binding (one-way)
+- event binding (one-way)
+- two way binding 
+
+✨ String interpolation
+---
+Mostrare a schermo qualsiasi cosa che possa essere trasformato in una stringa
+```html
+<!-- HTML -->
+<p> {{nome.ToUpperCase() }} </p>
+<p> {{2 < 5? 'ciao' : 'hello' }} </p> 
+```
+
+
+
+
+
 
 
