@@ -108,7 +108,7 @@ ngModel è una direttiva particolare che dice di connettere un evento sia in ent
 ---
 Classi che vengono messe sugli elementi per andare a cambiare il comportamento degli elementi. Sono:
 - built-in (ngModel, ngClass...)
-- structural (*ngIf, *ngFor...) → modificano la struttura del DOM (html)
+- structural (*ngIf, *ngFor...) → modificano la struttura del DOM (html) → aggiungono o rimuovo elementi 
 - attributi che modificano comportamento o apparenza di un elemento
 
 
