@@ -94,6 +94,17 @@ onInput(event: Event){ //mettere any non è il massimo
 ```
 Ogni volta che io scrivo un carattere nell'input si genera un evento (dati). In questo modo angular sa già che, se scrivo $event,  voglio prendere tutto quell'insieme dei dati (si può vedere ispezionando l'evento).
 
+✨ Two way binding
+---
+Collegare .ts e .html da entrambi i lati (mettere insieme property e event binding)
+```html
+<!-- HTML -->
+<input placeholder="Pizza" [(ngModel)]="title" />
+<p>{{title}}</p>
+```
+ngModel è una direttiva particolare che dice di connettere un evento sia in entrata che in uscita, quindi la variabile title potrà cambiare sia dall'.html che dal .ts, e la modifica viene vista da tutti e due (two way binding) <br>
+
+
 
 
 
