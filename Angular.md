@@ -80,6 +80,25 @@ Possiamo bindare il funzionamento del bottone (se disabilitarlo o meno) aggiunge
 // TS
 isDisabled = false;
 ```
+✨ Event binding
+---
+```html
+<!-- HTML -->
+<button color="primary" (click)="onClick()"> Cliccami </button>
+<input placeholder="Pizza" (input)="onInput($event)" />
+```
+```ts
+// TS 
+onInput(event: Event){ //mettere any non è il massimo
+  console.log( (<HTMLInputElement>event.target).value ) } //prendo il valore che ho scritto nell'input
+```
+Ogni volta che io scrivo un carattere nell'input si genera un evento (dati). In questo modo angular sa già che, se scrivo $event,  voglio prendere tutto quell'insieme dei dati (si può vedere ispezionando l'evento).
+
+
+
+
+
+
 
 
 
