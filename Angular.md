@@ -104,8 +104,12 @@ Collegare .ts e .html da entrambi i lati (mettere insieme property e event bindi
 ```
 ngModel è una direttiva particolare che dice di connettere un evento sia in entrata che in uscita, quindi la variabile title potrà cambiare sia dall'.html che dal .ts, e la modifica viene vista da tutti e due (two way binding) <br>
 
-
-
+✨ Direttive
+---
+Classi che vengono messe sugli elementi per andare a cambiare il comportamento degli elementi. Sono:
+- built-in (ngModel, ngClass...)
+- structural (*ngIf, *ngFor...) → modificano la struttura del DOM (html)
+- attributi che modificano comportamento o apparenza di un elemento
 
 
 
