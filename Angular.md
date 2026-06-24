@@ -129,7 +129,8 @@ persone = [
 @Input() data = any; //decoratore sulla variabile data, il valore di data arriva da fuori
 ```
 Questo vuoldire che il child (app-prova) ha una proprietà di tipo data e questa viene collegata tramite persone, che è dentro il parent. <br>
-@Input viene scritto prima del costruttore.
+@Input viene scritto prima del costruttore. <br>
+Se dentro il parent la variabile persone cambia, e vogliamo cambiarla anche nel child, allora 
 
 
 
