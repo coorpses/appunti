@@ -114,7 +114,7 @@ Classi che vengono messe sugli elementi per andare a cambiare il comportamento d
 ✨ Passare dati dal component parent al child
 ---
 ```html
-// HTML --> PARENT
+<!-- HTML --> --> PARENT
 <app-prova [data]="persone"> </app-prova>
 ```
 ```ts
