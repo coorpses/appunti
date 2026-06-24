@@ -111,8 +111,24 @@ Classi che vengono messe sugli elementi per andare a cambiare il comportamento d
 - structural (*ngIf, *ngFor...) → modificano la struttura del DOM (html) → aggiungono o rimuovo elementi 
 - attributi che modificano comportamento o apparenza di un elemento
 
-
-
+✨ Passare dati dal component parent al child
+---
+```html
+// HTML --> PARENT
+<app-prova [data]="persone"> </app-prova>
+```
+```ts
+// TS --> PARENT
+persone = [
+  {nome: "luca", cognome: "rossi"},
+  {nome: "marco", cognome: "bianchi"},
+]
+```
+```ts
+// TS --> CHILD
+@Input() data = any; //decoratore sulla variabile data, il valore di data arriva da fuori
+```
+Questo vuoldire che il child (app-prova) ha una proprietà di tipo data e questa viene collegata tramite persone, che è dentro il parent.
 
 
 
